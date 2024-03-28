@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 
+    - primary meta tags
+  -->
+  <title>Coffe-Hug</title>
+  <meta name="description" content="hug coffe">
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.jpg" type="image/svg+xml">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Forum&display=swap" rel="stylesheet">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="./assets/images/hero-slider-1.jpg">
+  <link rel="preload" as="image" href="./assets/images/hero-slider-2.jpg">
+  <link rel="preload" as="image" href="./assets/images/hero-slider-3.jpg">
+
+</head>
+
+<body id="top" dir="rtl">
+
+  <!-- 
+    - #PRELOADER
+  -->
+
+  <div class="preload" data-preaload>
+    <div class="circle"></div>
+    <p class="text">Hug</p>
+  </div>
+
+
+
+
+
+  <!-- 
+    - #TOP BAR
+  -->
+
+  <div class="topbar" id="topbar">
+    <div class="container">
+
+      <address class="topbar-item">
+        <div class="icon">
+          <ion-icon name="location-outline" aria-hidden="true"></ion-icon>
+        </div>
+
+        <span class="span">
+         ایران , کرج , رزکان نو , بلوار امیرکبیر , نرسیده به چهارراه , کافه هاگ
+        </span>
+      </address>
+
+      <div class="separator"></div>
+
+      <div class="topbar-item item-2">
+        <div class="icon">
+          <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+        </div>
+
+        <span class="span">روزانه : 11.00 صبح تا 11:00شب</span>
+      </div>
+
+      <a dir="ltr" href="tel:+989122272068" class="topbar-item link">
+        <div class="icon">
+          <ion-icon name="call-outline" aria-hidden="true"></ion-icon>
+        </div>
+
+        <span class="span">+989122272068</span>
+      </a>
+
+      <div class="separator"></div>
+
+      <a href="#" class="topbar-item link">
+        <div class="icon">
+          <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
+        </div>
+
+        <span class="span">soon</span>
+      </a>
+
+    </div>
+  </div>
+
+
+
+
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <!-- <a href="#" class="logo">
+        <img src="./assets/images/logo.svg" width="160" height="50" alt="Grilli - Home">
+      </a> -->
+
+      <nav class="navbar" data-navbar>
+
+        <button class="close-btn" aria-label="close menu" data-nav-toggler>
+          <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+        </button>
+
+        <!-- <a href="#" class="logo">
+          <img src="./assets/images/logo.svg" width="160" height="50" alt="Grilli - Home">
+        </a> -->
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <a href="#home" class="navbar-link hover-underline active">
+              <div class="separator"></div>
+
+              <span class="span">Home | خانه</span>
+            </a>
+          </li>
+
+        </ul>
+
+        <div class="text-center">
+          <p class="headline-1 navbar-title">Coffe Hug</p>
+
+          <address class="body-4">
+            ایران , کرج , رزکان نو , بلوار امیرکبیر , نرسیده به چهارراه , کافه هاگ
+          </address>
+
+          <p class="body-4 navbar-text">روزانه : 11.00 صبح تا 11:00شب</p>
+
+          <a href="#" class="body-4 sidebar-link">soon</a>
+
+          <div class="separator"></div>
+
+          <p class="contact-label">Connect Us</p>
+
+          <a dir="ltr" href="tel:+989122272068" class="body-1 contact-number hover-underline">
+            +989122272068
+          </a>
+        </div>
+
+      </nav>
+
+
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <span class="line line-1"></span>
+        <span class="line line-2"></span>
+        <span class="line line-3"></span>
+      </button>
+
+      <div class="overlay" data-nav-toggler data-overlay></div>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #SERVICE
+      -->
+
+      <section class="section service bg-black-10 text-center" aria-label="service" style="margin-top:70px;">
+        <div class="container">
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="service-card" >
+
+                <a href="./menu/garm.html" class="has-before hover:shine">
+                  <figure class="card-banner img-holder imges" style="--width: 285; --height: 336; border-radius: 40px;">
+                    <img src="./assets/images/hot coffe.jpg" width="285" height="336" loading="lazy" alt="Breakfast"
+                      class="img-cover">
+                  </figure>
+                </a>
+
+                <div class="card-content">
+
+                  <h3 class="title-4 card-title">
+                    <a href="./menu/garm.html">نوشیدنی گرم</a>
+                  </h3>
+
+                  <a href="./menu/garm.html" class="btn-text hover-underline label-2">View Menu | دیدن منو</a>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <a href="./menu/sard.html" class="has-before hover:shine">
+                  <figure class="card-banner img-holder imges" style="--width: 285; --height: 336; border-radius: 40px;">
+                    <img src="./assets/images/cold.jpg" width="285" height="336" loading="lazy" alt="Appetizers"
+                      class="img-cover">
+                  </figure>
+                </a>
+
+                <div class="card-content">
+
+                  <h3 class="title-4 card-title">
+                    <a href="./menu/sard.html">نوشیدنی سرد</a>
+                  </h3>
+
+                  <a href="./menu/sard.html" class="btn-text hover-underline label-2">View Menu | دیدن منو</a>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <a href="./menu/shake.html" class="has-before hover:shine">
+                  <figure class="card-banner img-holder imges" style="--width: 285; --height: 336; border-radius: 40px;">
+                    <img src="./assets/images/shake.jpg" width="285" height="336" loading="lazy" alt="Drinks"
+                      class="img-cover">
+                  </figure>
+                </a>
+
+                <div class="card-content">
+
+                  <h3 class="title-4 card-title">
+                    <a href="./menu/shake.html">شیک ها</a>
+                  </h3>
+
+                  <a href="./menu/shake.html" class="btn-text hover-underline label-2">View Menu | دیدن منو</a>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <a href="./menu/cake.html" class="has-before hover:shine">
+                  <figure class="card-banner img-holder imges" style="--width: 285; --height: 336; border-radius: 40px;">
+                    <img src="./assets/images/cake.jpg" width="285" height="336" loading="lazy" alt="Drinks"
+                      class="img-cover">
+                  </figure>
+                </a>
+
+                <div class="card-content">
+
+                  <h3 class="title-4 card-title">
+                    <a href="./menu/cake.html">کیک ها</a>
+                  </h3>
+
+                  <a href="#" class="btn-text hover-underline label-2">View Menu | دیدن منو</a>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+          <img src="./assets/images/shape-1.png" width="246" height="412" loading="lazy" alt="shape"
+            class="shape shape-1 move-anim">
+          <img src="./assets/images/shape-2.png" width="343" height="345" loading="lazy" alt="shape"
+            class="shape shape-2 move-anim">
+
+        </div>
+      </section>
+
+      <!-- 
+        - #EVENT
+      -->
+
+    </article>
+  </main>
+
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
