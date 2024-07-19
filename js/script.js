@@ -88,7 +88,24 @@ const products = [
     { id: "product59", name: "ایبیزا", price: 78 },
     { id: "product60", name: "رولت", price: 88 },
     { id: "product61", name: "چیز کیک", price: 78 },
-    { id: "product62", name: "کیک شکلات", price: 88 }
+    { id: "product62", name: "کیک شکلات", price: 88 },
+    { id: "product63", name: "سیب زمینی", price: 80 },
+    { id: "product64", name: "سیب هاگ", price: 115 },
+    { id: "product65", name: "سالاد سزار", price: 218 },
+    { id: "product66", name: "سالاد گرین هاگ", price: 198 },
+    { id: "product67", name: "تونا سالاد", price: 208 },
+    { id: "product68", name: "پاستا چیکن الفردو", price: 198 },
+    { id: "product69", name: "پاستا چیکن پستو", price: 198 },
+    { id: "product70", name: "چیکن استیک", price: 250 },
+    { id: "product71", name: "اسنک هاگ", price: 110 },
+    { id: "product72", name: "بشقاب ایرانی", price: 60 },
+    { id: "product73", name: "املت هاگ", price: 80 },
+    { id: "product74", name: "سوسیس تخم مرغ", price: 80 },
+    { id: "product75", name: "املت بیکن", price: 150 },
+    { id: "product76", name: "بشقاب انگلیسی", price: 200 },
+    { id: "product77", name: "ابمیوه فصل", price: 98 },
+    { id: "product78", name: "شیک نسکافه", price: 130 },
+    { id: "product79", name: "شیک بادام زمینی", price: 150 }
   ];
   
   // Initialize product counts and total cost
