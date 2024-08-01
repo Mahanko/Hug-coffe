@@ -106,6 +106,7 @@ const products = [
     { id: "product77", name: "ابمیوه فصل", price: 98 },
     { id: "product78", name: "شیک نسکافه", price: 130 },
     { id: "product79", name: "شیک بادام زمینی", price: 150 }
+    { id: "product80", name: "قلیان", price: 250 }
   ];
   
   // Initialize product counts and total cost
